@@ -1,0 +1,8 @@
+{
+    "display_name": "系统信息插件",
+    "plugin_id": "system_info_plugin",
+    "version": "1.0.0",
+    "author": "KiraAI Plugin Developer",
+    "description": "提供系统状态查询、配置信息查看和插件管理功能",
+    "repo": null
+}

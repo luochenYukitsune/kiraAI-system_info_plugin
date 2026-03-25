@@ -1,0 +1,46 @@
+{
+    "enabled": {
+        "name": "启用插件",
+        "type": "boolean",
+        "default": true,
+        "hint": "是否启用系统信息插件"
+    },
+    "verbose_log": {
+        "name": "详细日志",
+        "type": "boolean",
+        "default": true,
+        "hint": "是否输出详细的调试日志（包含每个步骤的详细信息）"
+    },
+    "command_prefix": {
+        "name": "指令前缀",
+        "type": "string",
+        "default": "/",
+        "hint": "指令前缀符号，默认为斜杠"
+    },
+    "show_full_config": {
+        "name": "显示完整配置",
+        "type": "boolean",
+        "default": false,
+        "hint": "是否在系统信息中显示完整配置（包含敏感信息）"
+    },
+    "max_plugins_list": {
+        "name": "插件列表最大显示数",
+        "type": "integer",
+        "default": 50,
+        "minimum": 10,
+        "maximum": 200,
+        "hint": "系统信息中显示的插件数量上限"
+    },
+    "include_env_vars": {
+        "name": "包含环境变量",
+        "type": "boolean",
+        "default": false,
+        "hint": "是否在系统信息中包含环境变量信息"
+    },
+    "use_forward_message": {
+        "name": "使用合并转发消息",
+        "type": "boolean",
+        "default": true,
+        "hint": "是否使用合并转发消息（卡片形式）输出系统信息，更美观且不占刷屏"
+    }
+}
